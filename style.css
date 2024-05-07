@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+
+#wheel {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "wheel";
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+#outer-wheel {
+  width: 100dvw;
+  grid-area: wheel;
+}
+
+#inner-wheel {
+  height: 40dvw;
+  grid-area: wheel;
+}
