@@ -7,6 +7,10 @@ body {
   background-color: #454545;
 }
 
+h1 {
+  color: white;
+}
+
 #wheel {
   display: grid;
   grid-template-columns: 1fr;

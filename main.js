@@ -20,7 +20,7 @@ circle.addEventListener('touchstart', function (event) {
 
 circle.addEventListener('touchmove', function (event) {
     if (!active) return;
-    event.preventDefault(); // Prevent scrolling and zooming
+    event.preventDefault();
     const angle = calculateAngle(event.touches[0]);
     currentAngle = angle - startAngle;
     circle.style.transform = `rotate(${currentAngle}rad)`;
