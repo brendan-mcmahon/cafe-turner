@@ -1,5 +1,3 @@
-import './style.css'
-
 const circle = document.getElementById('inner-wheel');
 let active = false;
 let currentAngle = 0;
